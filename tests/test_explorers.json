@@ -1,0 +1,105 @@
+[{
+        "name": "TestWoopa1",
+        "githubUsername": "Testjolonauta1",
+        "score": 1,
+        "mission": "node",
+        "stacks": [
+            "javascript",
+            "reasonML",
+            "elm"
+        ]
+    },
+    {
+        "name": "TestWoopa2",
+        "githubUsername": "Testjolonauta2",
+        "score": 2,
+        "mission": "node",
+        "stacks": [
+            "javascript",
+            "groovy",
+            "elm"
+        ]
+    },
+    {
+        "name": "TestWoopa3",
+        "githubUsername": "Testjolonauta3",
+        "score": 3,
+        "mission": "node",
+        "stacks": [
+            "elixir",
+            "groovy",
+            "reasonML"
+        ]
+    },
+    {
+        "name": "TestWoopa4",
+        "githubUsername": "Testjolonauta4",
+        "mission": "node",
+        "score": 4,
+        "stacks": [
+            "javascript"
+        ]
+    },
+    {
+        "name": "TestWoopa5",
+        "githubUsername": "Testjolonauta5",
+        "score": 5,
+        "mission": "node",
+        "stacks": [
+            "javascript",
+            "elixir",
+            "elm"
+        ]
+    },
+    {
+        "name": "TestWoopa6",
+        "githubUsername": "Testjolonauta6",
+        "score": 6,
+        "mission": "java",
+        "stacks": [
+            "elm"
+        ]
+    },
+    {
+        "name": "TestWoopa7",
+        "githubUsername": "Testjolonauta7",
+        "mission": "java",
+        "score": 7,
+        "stacks": []
+    },
+    {
+        "name": "TestWoopa8",
+        "githubUsername": "Testjolonauta8",
+        "score": 8,
+        "mission": "java",
+        "stacks": [
+            "elm"
+        ]
+    },
+    {
+        "name": "TestWoopa9",
+        "githubUsername": "Testjolonauta9",
+        "score": 9,
+        "mission": "java",
+        "stacks": [
+            "javascript",
+            "elixir",
+            "groovy",
+            "reasonML",
+            "elm"
+        ]
+    },
+    {
+        "name": "TestWoopa10",
+        "githubUsername": "Testjolonauta10",
+        "score": 10,
+        "mission": "java",
+        "stacks": [
+            "javascript",
+            "elixir",
+            "groovy",
+            "reasonML",
+            "elm"
+        ]
+    }
+]

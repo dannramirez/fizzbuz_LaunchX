@@ -4,11 +4,11 @@
   "description": "Code Challenge LaunchX",
   "main": "index.js",
   "scripts": {
-    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest"
+    "test": "node ./node_modules/jest/bin/jest"
   },
   "author": "DannRamirez",
   "license": "ISC",
   "devDependencies": {
-    "jest": "^26.6.3"
+    "jest": "^28.0.3"
   }
 }
