@@ -15,25 +15,25 @@ describe('Test for ExplorerService', () => {
             "githubUsername": "Testjolonauta2",
             "mission": "node",
             "name": "TestWoopa2",
-            "score": 2,
+            "score": 3,
             "stacks": ["javascript", "groovy", "elm"]
         }, {
             "githubUsername": "Testjolonauta3",
             "mission": "node",
             "name": "TestWoopa3",
-            "score": 3,
+            "score": 5,
             "stacks": ["elixir", "groovy", "reasonML"]
         }, {
             "githubUsername": "Testjolonauta4",
             "mission": "node",
             "name": "TestWoopa4",
-            "score": 4,
+            "score": 9,
             "stacks": ["javascript"]
         }, {
             "githubUsername": "Testjolonauta5",
             "mission": "node",
             "name": "TestWoopa5",
-            "score": 5,
+            "score": 12,
             "stacks": ["javascript", "elixir", "elm"]
         }]);
     });
