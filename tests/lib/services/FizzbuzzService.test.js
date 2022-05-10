@@ -1,9 +1,9 @@
 const FizbuzzService = require("./../../../lib/services/FizzbuzzService");
 const Reader = require("./../../../lib/utils/Reader");
-const explorers = Reader.readJsonFile('./tests/test_explorers.json');
+const explorers = Reader.readJsonFile("./tests/test_explorers.json");
 
-describe('Test for Fizbuzz Service', () => {
-    test('Test to apply Validation In Explorer', () => {
+describe("Test for Fizbuzz Service", () => {
+    test("Test to apply Validation In Explorer", () => {
         const explorersValidation = explorers.map((explorer) => {
             return FizbuzzService.applyValidationInExplorer(explorer);
         });

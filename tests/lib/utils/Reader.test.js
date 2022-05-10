@@ -1,8 +1,8 @@
 const Reader = require("../../../lib/utils/Reader");
 
-describe('Test for Reader utils', () => {
-    test('Requirement 1: Test readJsonFile() method to read and get info from file ', () => {
-        const explorers = Reader.readJsonFile('./tests/reader_explorers.json');
+describe("Test for Reader utils", () => {
+    test("Requirement 1: Test readJsonFile() method to read and get info from file ", () => {
+        const explorers = Reader.readJsonFile("./tests/reader_explorers.json");
         expect(explorers).toStrictEqual([{
             "name": "TestWoopa1",
             "githubUsername": "Testjolonauta1",
@@ -25,6 +25,6 @@ describe('Test for Reader utils', () => {
                 "elm"
             ]
         }
-    ]);
+        ]);
     });
-})
+});

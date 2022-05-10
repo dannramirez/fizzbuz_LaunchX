@@ -1,10 +1,10 @@
 const ExplorerService = require("./../../../lib/services/ExplorerService");
 const Reader = require("./../../../lib/utils/Reader");
-const explorers = Reader.readJsonFile('./tests/test_explorers.json');
+const explorers = Reader.readJsonFile("./tests/test_explorers.json");
 
-describe('Test for ExplorerService', () => {
-    test('Requirement 1: Filter explorers by mission', () => {
-        const explorersByMission = ExplorerService.filterByMission(explorers, 'node');
+describe("Test for ExplorerService", () => {
+    test("Requirement 1: Filter explorers by mission", () => {
+        const explorersByMission = ExplorerService.filterByMission(explorers, "node");
         expect(explorersByMission).toStrictEqual([{
             "githubUsername": "Testjolonauta1",
             "mission": "node",
@@ -38,13 +38,13 @@ describe('Test for ExplorerService', () => {
         }]);
     });
 
-    test('Requirement 2: Get quantity of explorerrs in mission', () => {
-        const explorersQuantityInMission = ExplorerService.getAmountOfExplorersByMission(explorers, 'node');
+    test("Requirement 2: Get quantity of explorerrs in mission", () => {
+        const explorersQuantityInMission = ExplorerService.getAmountOfExplorersByMission(explorers, "node");
         expect(explorersQuantityInMission).toBe(5);
     });
 
-    test('Requirement 3: Get name of explorerrs in mission', () => {
-        const explorersNameByMission = ExplorerService.getExplorersUsernamesByMission(explorers, 'node');
+    test("Requirement 3: Get name of explorerrs in mission", () => {
+        const explorersNameByMission = ExplorerService.getExplorersUsernamesByMission(explorers, "node");
         expect(explorersNameByMission).toStrictEqual(["Testjolonauta1", "Testjolonauta2", "Testjolonauta3", "Testjolonauta4", "Testjolonauta5"]);
     });
 
