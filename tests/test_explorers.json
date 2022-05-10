@@ -12,7 +12,7 @@
     {
         "name": "TestWoopa2",
         "githubUsername": "Testjolonauta2",
-        "score": 2,
+        "score": 3,
         "mission": "node",
         "stacks": [
             "javascript",
@@ -23,7 +23,7 @@
     {
         "name": "TestWoopa3",
         "githubUsername": "Testjolonauta3",
-        "score": 3,
+        "score": 5,
         "mission": "node",
         "stacks": [
             "elixir",
@@ -35,7 +35,7 @@
         "name": "TestWoopa4",
         "githubUsername": "Testjolonauta4",
         "mission": "node",
-        "score": 4,
+        "score": 9,
         "stacks": [
             "javascript"
         ]
@@ -43,7 +43,7 @@
     {
         "name": "TestWoopa5",
         "githubUsername": "Testjolonauta5",
-        "score": 5,
+        "score": 12,
         "mission": "node",
         "stacks": [
             "javascript",
@@ -54,7 +54,7 @@
     {
         "name": "TestWoopa6",
         "githubUsername": "Testjolonauta6",
-        "score": 6,
+        "score": 15,
         "mission": "java",
         "stacks": [
             "elm"
@@ -64,13 +64,13 @@
         "name": "TestWoopa7",
         "githubUsername": "Testjolonauta7",
         "mission": "java",
-        "score": 7,
+        "score": 20,
         "stacks": []
     },
     {
         "name": "TestWoopa8",
         "githubUsername": "Testjolonauta8",
-        "score": 8,
+        "score": 26,
         "mission": "java",
         "stacks": [
             "elm"
@@ -79,7 +79,7 @@
     {
         "name": "TestWoopa9",
         "githubUsername": "Testjolonauta9",
-        "score": 9,
+        "score": 30,
         "mission": "java",
         "stacks": [
             "javascript",
@@ -92,7 +92,7 @@
     {
         "name": "TestWoopa10",
         "githubUsername": "Testjolonauta10",
-        "score": 10,
+        "score": 516,
         "mission": "java",
         "stacks": [
             "javascript",
