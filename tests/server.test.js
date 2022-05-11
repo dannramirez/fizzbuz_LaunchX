@@ -156,11 +156,11 @@ describe("Test for FIZZBUZZ validation from a given service", () => {
     });
 
     test("Test 5 to apply Validation In a given number (100)", async () => {
-        const response = await request.get("/v1/fizzbuzz/100");
+        const response = await request.get("/v1/fizzbuzz/NA");
         expect(response.status).toBe(200);
         expect(response.body).toStrictEqual({
-            "score": 100,
-            "trick": "BUZZ"
+            score: "Not apply",
+            trick: "Can't evalute when not a number"
         });
     });
 
