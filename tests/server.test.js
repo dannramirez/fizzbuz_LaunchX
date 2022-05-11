@@ -113,6 +113,55 @@ describe("Test endpoint responses", () => {
             ],
         });
     });
+});
 
+
+
+describe("Test for FIZZBUZZ validation from a given service", () => {
+
+    test("Test 1 to apply Validation In a given number (1)", async () => {
+        const response = await request.get("/v1/fizzbuzz/1");
+        expect(response.status).toBe(200);
+        expect(response.body).toStrictEqual({
+            "score": 1,
+            "trick": 1
+        });
+    });
+
+    test("Test 2 to apply Validation In a given number (3)", async () => {
+        const response = await request.get("/v1/fizzbuzz/3");
+        expect(response.status).toBe(200);
+        expect(response.body).toStrictEqual({
+            "score": 3,
+            "trick": "FIZZ"
+        });
+    });
+
+    test("Test 3 to apply Validation In a given number (5)", async () => {
+        const response = await request.get("/v1/fizzbuzz/5");
+        expect(response.status).toBe(200);
+        expect(response.body).toStrictEqual({
+            "score": 5,
+            "trick": "BUZZ"
+        });
+    });
+
+    test("Test 4 to apply Validation In a given number (15)", async () => {
+        const response = await request.get("/v1/fizzbuzz/15");
+        expect(response.status).toBe(200);
+        expect(response.body).toStrictEqual({
+            "score": 15,
+            "trick": "FIZZBUZZ"
+        });
+    });
+
+    test("Test 5 to apply Validation In a given number (100)", async () => {
+        const response = await request.get("/v1/fizzbuzz/100");
+        expect(response.status).toBe(200);
+        expect(response.body).toStrictEqual({
+            "score": 100,
+            "trick": "BUZZ"
+        });
+    });
 
 });
