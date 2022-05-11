@@ -81,4 +81,30 @@ describe("Test for Fizbuzz Service", () => {
         }]);
     });
 
+    test("Test 1 to apply Validation In a given number (1)", function () {
+        const result = FizbuzzService.applyValidationInNumber(1);
+        expect(result).toBe(1);
+    });
+
+    test("Test 2 to apply Validation In a given number(3)", function () {
+        const result = FizbuzzService.applyValidationInNumber(3);
+        expect(result).toBe("FIZZ");
+    });
+
+    test("Test 1 to apply Validation In a given number(5)", function () {
+        const result = FizbuzzService.applyValidationInNumber(5);
+        expect(result).toBe("BUZZ");
+    });
+
+    test("Test 1 to apply Validation In a given number(15)", function () {
+        const result = FizbuzzService.applyValidationInNumber(15);
+        expect(result).toBe("FIZZBUZZ");
+    });
+
+    test("Test 1 to apply Validation In a given number(90)", function () {
+        const result = FizbuzzService.applyValidationInNumber(90);
+        expect(result).toBe("FIZZBUZZ");
+    });
+
+
 });
