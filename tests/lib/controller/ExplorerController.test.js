@@ -69,12 +69,12 @@ describe("Test for Explorer Controllers", () => {
     });
 
     test("Test to get Explorers Usernames By Mission", () => {
-        const result = ExplorerController.getExplorersUsernamesByMission("node");
+        const result = ExplorerController.getExplorersAmonutByMission("node");
         expect(result).toBe(10);
     });
 
     test(" Test to get Explorers Amonut By Mission", () => {
-        const result = ExplorerController.getExplorersAmonutByMission("node");
+        const result = ExplorerController.getExplorersUsernamesByMission("node");
         expect(result).toStrictEqual(["ajolonauta1", "ajolonauta2", "ajolonauta3", "ajolonauta4", "ajolonauta5", "ajolonauta11", "ajolonauta12", "ajolonauta13", "ajolonauta14", "ajolonauta15"]);
     });
 
