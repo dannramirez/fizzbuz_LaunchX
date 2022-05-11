@@ -4,6 +4,7 @@
     "description": "Code Challenge LaunchX",
     "main": "index.js",
     "scripts": {
+        "dev": "node_modules/.bin/nodemon ./lib/server.js",
         "start": "node ./lib/server.js",
         "test": "node ./node_modules/jest/bin/jest",
         "linter": "node ./node_modules/eslint/bin/eslint.js .",
