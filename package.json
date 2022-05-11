@@ -6,7 +6,7 @@
     "scripts": {
         "dev": "node_modules/.bin/nodemon ./lib/server.js",
         "start": "node ./lib/server.js",
-        "test": "node ./node_modules/jest/bin/jest",
+        "test": "node ./node_modules/jest/bin/jest --verbose --silent",
         "linter": "node ./node_modules/eslint/bin/eslint.js .",
         "linter-fix": "node ./node_modules/eslint/bin/eslint.js . --fix"
     },
