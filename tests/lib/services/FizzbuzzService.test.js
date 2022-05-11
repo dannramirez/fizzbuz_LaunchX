@@ -91,17 +91,17 @@ describe("Test for Fizbuzz Service", () => {
         expect(result).toBe("FIZZ");
     });
 
-    test("Test 1 to apply Validation In a given number(5)", function () {
+    test("Test 3 to apply Validation In a given number(5)", function () {
         const result = FizbuzzService.applyValidationInNumber(5);
         expect(result).toBe("BUZZ");
     });
 
-    test("Test 1 to apply Validation In a given number(15)", function () {
+    test("Test 4 to apply Validation In a given number(15)", function () {
         const result = FizbuzzService.applyValidationInNumber(15);
         expect(result).toBe("FIZZBUZZ");
     });
 
-    test("Test 1 to apply Validation In a given number(90)", function () {
+    test("Test 5 to apply Validation In a given number(90)", function () {
         const result = FizbuzzService.applyValidationInNumber(90);
         expect(result).toBe("FIZZBUZZ");
     });
